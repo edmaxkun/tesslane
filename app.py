@@ -28,4 +28,4 @@ def result():
         return render_template('home.html', prediction_text= float(prediction))
 
 if __name__ == "__main__":
-    app.run(debug=True, port=9457)
+    app.run(debug=False)
